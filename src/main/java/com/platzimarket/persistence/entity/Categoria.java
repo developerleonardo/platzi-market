@@ -13,7 +13,7 @@ public class Categoria {
 
     private String descripcion;
 
-    private boolean estado;
+    private Boolean estado;
 
     public Integer getIdCategoria() {
         return idCategoria;
