@@ -23,9 +23,9 @@ public class ProductoRepository {
         return productoCrudRepository.FindByCantidadStockLessThanAndEstado(cantidad, true);
     }
 
-    public List<Producto> getByPrecioVenta(int idProducto){
+    /*public List<Producto> getByPrecioVenta(int idProducto){
         return productoCrudRepository.FindByIdProductoOrderByPrecioVentaAsc(idProducto);
-    }
+    }*/
 
     public Optional<Producto> getProducto(int idProducto){
         return productoCrudRepository.findById(idProducto);
